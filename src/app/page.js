@@ -90,6 +90,10 @@ export default function Home() {
           <section>
             <div>
               <h3 className="text-3xl py-1">Portfolio</h3>
+               <p className = "text-md py-2 leading-8 text-gray-800">
+              I have created multiple projects with different languages and frameworks.
+              These projects involve full stack projects, web applications, data visualizations, and many more!
+            </p>
             </div>
           </section>
       </main>
