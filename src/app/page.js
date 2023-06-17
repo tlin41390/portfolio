@@ -42,8 +42,8 @@ export default function Home() {
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
-            <a href = "https://github.com/tlin41390"><AiFillGithub /></a>
-            <a href = "https://www.linkedin.com/in/terence-lin-22b023197/"><AiFillLinkedin /></a>
+            <a href = "https://github.com/tlin41390" target="_blank" rel="noopener"><AiFillGithub /></a>
+            <a href = "https://www.linkedin.com/in/terence-lin-22b023197/" target="_blank" rel="noopener"><AiFillLinkedin /></a>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
             <Image src={deved} layout="fill" objectFit="cover" />
@@ -105,7 +105,6 @@ export default function Home() {
               <p className="text-gray-800 py-1">Tableau</p>
               <p className="text-gray-800 py-1">Jupyter</p>
               <p className="text-gray-800 py-1">Excel</p>
-
             </div>
           </div>
         </section>
@@ -116,6 +115,20 @@ export default function Home() {
               I have created multiple projects with different languages and frameworks. Most of(if not all) my projects are on Github.
               These projects involve full stack projects, web applications, data visualizations, and many more!
             </p>
+             <div className="shadow-lg p-10 rounded-xl my-10 dark: bg-white">
+              <h3 className="text-2xl font-bold pb-10">Full Stack Search Engine</h3>
+              <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md" href="https://github.com/tlin41390/SearchEngine" target="_blank" rel="noopener">
+                Link to Project
+              </a>
+              <p className=" text-lg pt-8">
+                Full stack search engine created with Java.
+              </p>
+              <h4 className="py-4 text-teal-600">Software Used</h4>
+              <p className="text-gray-800 py-1">Java</p>
+              <p className="text-gray-800 py-1">Jetty</p>
+              <p className="text-gray-800 py-1">Servlets</p>
+
+            </div>
           </div>
         </section>
       </main>
