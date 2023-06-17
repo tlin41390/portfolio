@@ -5,7 +5,6 @@ import { BsFillMoonStarsFill } from 'react-icons/bs'
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
 import deved from "../../public/dev-ed-wave.png"
 import code from "../../public/code.png"
-import consulting from "../../public/consulting.png"
 import monitor from "../../public/monitor.png"
 import creeper from "../../public/creeper.png"
 import { useState } from 'react'
@@ -42,8 +41,8 @@ export default function Home() {
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
-            <a href = "https://github.com/tlin41390" target="_blank" rel="noopener"><AiFillGithub /></a>
-            <a href = "https://www.linkedin.com/in/terence-lin-22b023197/" target="_blank" rel="noopener"><AiFillLinkedin /></a>
+            <a href="https://github.com/tlin41390" target="_blank" rel="noopener"><AiFillGithub /></a>
+            <a href="https://www.linkedin.com/in/terence-lin-22b023197/" target="_blank" rel="noopener"><AiFillLinkedin /></a>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
             <Image src={deved} layout="fill" objectFit="cover" />
@@ -115,21 +114,35 @@ export default function Home() {
               I have created multiple projects with different languages and frameworks. Most of(if not all) my projects are on Github.
               These projects involve full stack projects, web applications, data visualizations, and many more!
             </p>
-             <div className="shadow-lg p-10 rounded-xl my-10 dark: bg-white">
-              <h3 className="text-2xl font-bold pb-10">Full Stack Search Engine</h3>
-              <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md" href="https://github.com/tlin41390/SearchEngine" target="_blank" rel="noopener">
-                Link to Project
-              </a>
-              <p className=" text-lg pt-8">
-                Full stack search engine created with Java.
-              </p>
-              <h4 className="py-4 text-teal-600">Software Used</h4>
-              <p className="text-gray-800 py-1">Java</p>
-              <p className="text-gray-800 py-1">Jetty</p>
-              <p className="text-gray-800 py-1">Servlets</p>
-
-            </div>
           </div>
+            <div className = "lg:flex gap-10">
+              <div className="shadow-lg p-10 rounded-xl my-10 dark: bg-white">
+                <h3 className="text-2xl font-bold pb-10">Full Stack Search Engine</h3>
+                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md" href="https://github.com/tlin41390/SearchEngine" target="_blank" rel="noopener">
+                  Link to Project
+                </a>
+                <p className=" text-lg pt-8 pb-4">
+                  Full stack search engine created with Java.
+                </p>
+                <h4 className="py-2 text-teal-600">Software Used</h4>
+                <p className="text-gray-800 py-1">Java</p>
+                <p className="text-gray-800 py-1">Jetty</p>
+                <p className="text-gray-800 py-1">Servlets</p>
+              </div>
+              <div className="shadow-lg p-10 rounded-xl my-10 dark: bg-white">
+                <h3 className="text-2xl font-bold pb-10">React Chat App</h3>
+                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md" href="https://github.com/tlin41390/KapyChat" target="_blank" rel="noopener">
+                  Link to Project
+                </a>
+                <p className=" text-lg pt-8 pb-4">
+                  React messaging app with user authentication. Connects to firebase database for storing users and their chat history
+                </p>
+                <h4 className="py-2 text-teal-600">Software Used</h4>
+                <p className="text-gray-800 py-1">React</p>
+                <p className="text-gray-800 py-1">SCSS</p>
+                <p className="text-gray-800 py-1">Firebase</p>
+              </div>
+            </div>
         </section>
       </main>
     </div>
