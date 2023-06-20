@@ -115,7 +115,7 @@ export default function Home() {
               These projects involve full stack projects, web applications, data visualizations, and many more!
             </p>
           </div>
-            <div className = "lg:flex gap-10">
+            <div className = "lg:flex lg:flex-wrap gap-5">
               <div className="shadow-lg p-10 rounded-xl my-10 dark: bg-white">
                 <h3 className="text-2xl font-bold pb-10">Full Stack Search Engine</h3>
                 <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md" href="https://github.com/tlin41390/SearchEngine" target="_blank" rel="noopener">
@@ -141,6 +141,46 @@ export default function Home() {
                 <p className="text-gray-800 py-1">React</p>
                 <p className="text-gray-800 py-1">SCSS</p>
                 <p className="text-gray-800 py-1">Firebase</p>
+              </div>
+              <div className="shadow-lg p-10 rounded-xl my-10 dark: bg-white">
+                <h3 className="text-2xl font-bold pb-10">Memory Allocator</h3>
+                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md" href="https://github.com/USF-CS326-S23/project01-tlin41390" target="_blank" rel="noopener">
+                  Link to Project
+                </a>
+                <p className=" text-lg pt-8 pb-4">
+                  Reimplementation of the C malloc() and free() functions
+                </p>
+                <h4 className="py-2 text-teal-600">Software Used</h4>
+                <p className="text-gray-800 py-1">C</p>
+                <p className="text-gray-800 py-1">xv6</p>
+              </div>
+               <div className="shadow-lg p-10 rounded-xl my-10 dark: bg-white">
+                <h3 className="text-2xl font-bold pb-10">GPU Viz</h3>
+                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md" href="https://github.com/USF-CS326-S23/project01-tlin41390" target="_blank" rel="noopener">
+                  Link to Project
+                </a>
+                <p className=" text-lg pt-8 pb-4">
+                  Data visualization of GPU shortage during the pandemic
+                </p>
+                <h4 className="py-2 text-teal-600">Software Used</h4>
+                <p className="text-gray-800 py-1">D3.js</p>
+                <p className="text-gray-800 py-1">Python</p>
+                <p className="text-gray-800 py-1">HTML</p>
+                <p className="text-gray-800 py-1">CSS</p>
+              </div>
+              <div className="shadow-lg p-10 rounded-xl my-10 dark: bg-white">
+                <h3 className="text-2xl font-bold pb-10">Detection of Network Compression</h3>
+                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md" href="https://github.com/USF-CS326-S23/project01-tlin41390" target="_blank" rel="noopener">
+                  Link to Project
+                </a>
+                <p className=" text-lg pt-8 pb-4">
+                  Send packets from server to client and detect if packets are compressed or not
+                </p>
+                <h4 className="py-2 text-teal-600">Software Used</h4>
+                <p className="text-gray-800 py-1">C</p>
+                <p className="text-gray-800 py-1">CJson</p>
+                <p className="text-gray-800 py-1">VirtualBox</p>
+                <p className="text-gray-800 py-1"></p>
               </div>
             </div>
         </section>
