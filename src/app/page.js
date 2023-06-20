@@ -26,7 +26,7 @@ export default function Home() {
               <li>
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl dark:text-white" />
               </li>
-              <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="https://resume_terence_lin.tiiny.site/">
+              <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="https://resume_terence_lin.tiiny.site/" target="_blank" rel="noopener">
                 Resume
               </a>
               </li>
@@ -62,7 +62,7 @@ export default function Home() {
               Hopefully I have the skills you are looking for!
             </p>
           </div>
-          <div className="lg:flex gap-10">
+          <div className="lg:flex gap-10 justify-center">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark: bg-white">
               <Image src={code} width={100} height={100} className="mx-auto" />
               <h3 className="text-lg font-medium pt-8 pb-2">Langauges</h3>
