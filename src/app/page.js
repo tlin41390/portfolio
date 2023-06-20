@@ -26,7 +26,7 @@ export default function Home() {
               <li>
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl dark:text-white" />
               </li>
-              <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="#">
+              <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="file:///C:/Users/Terence%20Lin/Downloads/Resume_Terence%20Lin%20(3).pdf">
                 Resume
               </a>
               </li>
@@ -156,7 +156,7 @@ export default function Home() {
               </div>
                <div className="shadow-lg p-10 rounded-xl my-10 dark: bg-white">
                 <h3 className="text-2xl font-bold pb-10">GPU Viz</h3>
-                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md" href="https://github.com/USF-CS326-S23/project01-tlin41390" target="_blank" rel="noopener">
+                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md" href="https://github.com/tlin41390/GPU_Visualizations" target="_blank" rel="noopener">
                   Link to Project
                 </a>
                 <p className=" text-lg pt-8 pb-4">
@@ -170,7 +170,7 @@ export default function Home() {
               </div>
               <div className="shadow-lg p-10 rounded-xl my-10 dark: bg-white">
                 <h3 className="text-2xl font-bold pb-10">Detection of Network Compression</h3>
-                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md" href="https://github.com/USF-CS326-S23/project01-tlin41390" target="_blank" rel="noopener">
+                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md" href="https://github.com/Justigo/Compression-Detection" target="_blank" rel="noopener">
                   Link to Project
                 </a>
                 <p className=" text-lg pt-8 pb-4">
